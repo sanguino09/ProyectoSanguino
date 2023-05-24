@@ -1416,12 +1416,12 @@ body {
 }
 @media (max-width: 767px) {
   .outer-nav > li {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 @media (max-width: 600px) {
   .outer-nav > li {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 .outer-nav li.is-vis:nth-child(2) {
