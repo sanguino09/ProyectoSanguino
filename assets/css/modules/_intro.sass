@@ -122,6 +122,8 @@
           margin-right: 0
 
 @media (max-width: 767px)
+  .brIntro
+    display:none
 
   .intro
 
@@ -133,7 +135,10 @@
 
       img
         width: 330px
-
+    &--banner:before
+      visibility: hidden
+    &--banner:after
+      visibility: hidden
     &--options
       display: block
 
