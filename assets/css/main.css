@@ -679,6 +679,9 @@ body {
   }
 }
 @media (max-width: 767px) {
+  .anunciosTextIntro {
+    visibility: hidden;
+  }
   .intro--banner {
     height: 305px;
   }
@@ -1423,6 +1426,9 @@ body {
 @media (max-width: 767px) {
   .outer-nav > li {
     font-size: 28px;
+  }
+  .brIntro{
+    display: none;
   }
 }
 @media (max-width: 600px) {
