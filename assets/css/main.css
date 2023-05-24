@@ -1423,6 +1423,13 @@ body {
 .outer-nav > li.is-active::before {
   opacity: 1;
 }
+
+@media (min-width: 767px) {
+  .hiddenIntroText{
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
   .outer-nav > li {
     font-size: 28px;
