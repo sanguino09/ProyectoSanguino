@@ -919,11 +919,11 @@ body {
 }
 .about--banner {
   position: relative;
-  height: 300px;
+  height: 475px;
 }
 .about--banner h2 {
   position: relative;
-  margin-top: 5px;
+  margin-top: 35px;
   font-size: 68px;
   font-weight: 900;
   line-height: 1;
@@ -972,13 +972,13 @@ body {
   background-repeat: no-repeat;
 }
 .about--options > a:nth-child(1) {
-  background-image: url("../img/seoPhoto.jpg");
+  background-image: url("../img/about-winners.jpg");
 }
 .about--options > a:nth-child(2) {
-  background-image: url("../img/ads.jpeg");
+  background-image: url("../img/about-philosophy.jpg");
 }
 .about--options > a:nth-child(3) {
-  background-image: url("../img/followersPhoto.webp");
+  background-image: url("../img/about-history.jpg");
 }
 .about--options > a:hover h3 {
   bottom: -50px;
@@ -990,7 +990,6 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   transition: bottom 0.2s ease-in-out, left 0.2s ease-in-out;
-  text-shadow: 3px 3px #0f33ff;
 }
 
 @media (max-width: 767px) {
@@ -1047,7 +1046,7 @@ body {
     display: none;
   }
   .about--options {
-    flex-wrap: wrap;
+    display: none;
   }
 }
 .contact {
@@ -1417,15 +1416,6 @@ body {
 @media (max-width: 600px) {
   .outer-nav > li {
     font-size: 22px;
-  }
-  .about--banner {
-    margin-top: 5vh;
-  }
-  .about--banner > h2{
-    font-size: 5vh;
-  }
-  .about--options > a{
-    margin:5px;
   }
 }
 .outer-nav li.is-vis:nth-child(2) {
