@@ -1020,6 +1020,9 @@ body {
   .about--banner img {
     width: 315px;
   }
+  .about--options > a:hover h3 {
+    bottom: -5px;
+  }
 }
 @media (max-width: 600px) {
   .about--banner {

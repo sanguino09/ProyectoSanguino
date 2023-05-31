@@ -1,0 +1,21 @@
+html,
+body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+}
+.thanks {
+  width: 80%;
+}
+
+.buttonBack {
+  background-color: #0f33ff;
+  border-radius: 10px;
+}
+
+.buttonBack:hover {
+  color: #7f92ff;
+}
