@@ -188,6 +188,8 @@ $( document ).ready(function() {
           curCenterPos = $('.slider').children().index(curCenter),
           curRight = $('.slider').find('.slider--item-right'),
           curRightPos = $('.slider').children().index(curRight),
+          curRight2 = $('.slider').find('.slider--item-right'),
+          curRightPos2 = $('.slider').children().index(curRight2),
           totalWorks = $('.slider').children().length,
           $left2 = $('.slider--item-left2'),
           $left = $('.slider--item-left'),
@@ -200,7 +202,7 @@ $( document ).ready(function() {
       setTimeout(function(){
 
       if ($this.hasClass('slider--next')) {
-        if (curLeft2Pos < totalWorks - 1 && curLeftPos < totalWorks - 1 && curCenterPos < totalWorks - 1 && curRightPos < totalWorks - 1) {
+        if (curLeft2Pos < totalWorks - 1 && curLeftPos < totalWorks - 1 && curCenterPos < totalWorks - 1 && curRightPos < totalWorks - 1 && curRight2Pos < totalWorks - 1) {
           $left2.removeClass('slider--item-left2').next().addClass('slider--item-left2');
           $left.removeClass('slider--item-left').next().addClass('slider--item-left');
           $center.removeClass('slider--item-center').next().addClass('slider--item-center');
