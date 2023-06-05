@@ -1,5 +1,13 @@
 // @codekit-prepend "/vendor/hammer-2.0.8.js";
 
+/*-------------Remove loader-----------------------*/
+let loaderDiv = document.querySelector(".loaderScreen");
+
+setTimeout(function () {
+  loaderDiv.style.display = "none";
+}, 3000);
+/*---------------------------------*/
+
 $( document ).ready(function() {
 
   // DOMMouseScroll included for firefox support
