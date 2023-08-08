@@ -39,3 +39,6 @@ $(document).on("click", "#send-it", function () {
       $("#whatsapp-chat").addClass("show").removeClass("hide");
     });
   
+    $("img").mousedown(function(){
+      return false;
+  });
