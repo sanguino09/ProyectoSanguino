@@ -98,7 +98,6 @@ figcaption {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
-  
 }
 
 /* clear fix */
@@ -1764,9 +1763,9 @@ responsive
 }
 
 @media (max-width: 767px) {
- .main-banner{
-  padding: 15vh 0px 10vh 0px !important;
- }
+  #top {
+    padding: 16vh 0px 10vh 0px !important;
+  }
   .header-area .main-nav .logo h4 {
     font-size: 20px;
   }
