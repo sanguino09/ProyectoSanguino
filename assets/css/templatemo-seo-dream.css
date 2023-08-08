@@ -265,7 +265,7 @@ body {
   font-weight: 800;
   position: relative;
   z-index: 2;
-  line-height: 45px;
+  line-height: 15px;
 }
 
 .section-heading h2 em {
@@ -973,10 +973,10 @@ Banner Style
   margin-top: 30px;
   padding-top: 20px;
   margin-bottom: 45px;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 800;
   color: #2a2a2a;
-  line-height: 72px;
+  line-height: 40px;
   background: #fa9d4d;
   background: -webkit-linear-gradient(to right, #fa9d4d 0%, #ff4f6b 100%);
   background: -moz-linear-gradient(to right, #fa9d4d 0%, #ff4f6b 100%);
@@ -1704,6 +1704,12 @@ responsive
   .main-banner {
     padding: 226px 0px 120px 0px !important;
   }
+  h2 {
+    font-size: 60px;
+  }
+  .main-banner .left-content h2 {
+    line-height: 72px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1770,8 +1776,6 @@ responsive
 }
 
 @media (max-width: 767px) {
-  #top {
-  }
   .header-area .main-nav .logo h4 {
     font-size: 20px;
   }
