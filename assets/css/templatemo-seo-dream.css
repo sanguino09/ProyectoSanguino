@@ -918,7 +918,8 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 16vh 0vh 10vh 0vh;
+
   position: relative;
   overflow: hidden;
 }
@@ -1699,6 +1700,12 @@ responsive
 --------------------------------------------- 
 */
 
+@media (min-width: 767px) {
+  .main-banner {
+    padding: 226px 0px 120px 0px !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .logo h4 {
     font-size: 24px;
@@ -1764,7 +1771,6 @@ responsive
 
 @media (max-width: 767px) {
   #top {
-    padding: 16vh 0px 10vh 0px !important;
   }
   .header-area .main-nav .logo h4 {
     font-size: 20px;
