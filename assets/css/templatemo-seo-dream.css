@@ -1764,9 +1764,9 @@ responsive
 }
 
 @media (max-width: 767px) {
-  .main-banner{
-    padding: 50px 0px 50 0px !important;
-  }
+ .main-banner{
+  padding: 15vh 0px 10vh 0px !important;
+ }
   .header-area .main-nav .logo h4 {
     font-size: 20px;
   }
