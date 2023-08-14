@@ -32,7 +32,6 @@
   
   #whatsapp-chat {
     box-sizing: border-box !important;
-  
     outline: none !important;
     position: fixed;
     width: 350px;
@@ -77,8 +76,8 @@
     margin: 0 0 10px;
   }
   .header-chat p {
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 14px !important; 
+    line-height: 1.7 !important;
     margin: 0;
   }
   .info-avatar {
